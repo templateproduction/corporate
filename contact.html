@@ -5,8 +5,17 @@
     <meta author="Mamun Chowdhury" content="Total unique from others">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Page title -->
     <title>Contact us | Corporate Company</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Default and Bootstrap Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- External Fonts and Icon stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/line-awesome.css">
+
+    <!-- Main and Responsive stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
@@ -20,8 +29,19 @@
             <div class="row">
                 <!-- Contact Address of your company -->
                 <div class="col-lg-4">
-                    <h3>contact address</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur iste dolor inventore dignissimos ab velit ipsam delectus, deleniti, officia in officiis sapiente cupiditate repellat tempora suscipit. Excepturi odio commodi reiciendis!</p>
+                    <h5 class="do-company-address-heading">contact address<h5>
+                    <div class="do-company-address">
+                        <p class="do-company-address-link">Company Name, State, District, Country.</p>
+                        <p class="do-company-address-link">+001777XXXXXXXXXX</p>
+                        <p class="do-company-address-link">+001777XXXXXXXXXX</p>
+                        <p class="do-company-address-link">example@email.com</p>
+                    </div>
+                    <div class="do-company-social-address">
+                        <span class="la-facebook"></span>
+                        <span>T</span>
+                        <span>L</span>
+                        <span>S</span>
+                    </div> 
                 </div>
                 <!-- Contact Address of your company -->
                 
@@ -29,10 +49,10 @@
                 <div class="col-lg-8">
                     <h1>Send your feedback</h1>
                     <form action="contact.php" method="post">
-                        <input type="text" class="" name="mailing_subject" id="mailingSubject" placeholder="Subject">
-                        <input type="text" class="" name="user_name" id="userName" placeholder="Name">                        
-                        <input type="email" class="" name="email_address" id="emailAddress" placeholder="E-mail">
-                        <textarea name="" id="" cols="67" rows="10" placeholder="Your message."></textarea>                        
+                        <input type="text" class="do-contact-input" name="mailing_subject" id="mailingSubject" placeholder="Subject">
+                        <input type="text" class="do-contact-input" name="user_name" id="userName" placeholder="Name">                        
+                        <input type="email" class="do-contact-input" name="email_address" id="emailAddress" placeholder="E-mail">
+                        <textarea class="do-contact-user-message" name="" id="" cols="67" rows="10" placeholder="Your message."></textarea>
                     </form>
                 </div>
                 <!-- Main Contact form end -->
