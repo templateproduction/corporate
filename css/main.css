@@ -15,8 +15,27 @@
     margin-top: 1.5rem;
 } 
 .do-company-social-address span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-right: 0.5rem;
     text-align: center;
     color: #888888;
+}
+/* Mailling Form style section */
+.do-mailing-form-heading {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.do-contact-input {
+    width: calc( 100%/ 3 - 15px);
+    border-style: none;
+    margin-right: 15px;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 15px;
+    padding: 10px 8px;
+    float: left;
+}
+.do-contact-user-message {
+    width: calc(100% - 15px );
+    height: 220px;
+    padding: 10px 8px;
 }
