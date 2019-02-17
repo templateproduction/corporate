@@ -19,7 +19,7 @@
     font-size: 1.3rem;
     margin-right: 0.5rem;
     text-align: center;
-    color: #888888;
+    color: #c1c1c1;
     transition: all ease-in-out 0.3s;
 }
 .do-company-social-address span:hover {
@@ -53,6 +53,10 @@
         FOOTER SECTION STYLESHEET
 
 ====================================================*/
+footer {
+    background-color: #000;
+}
+/* Footer company address and logo section */
 .do-company-footer-address ul {
     list-style: none;
     padding: 0;
@@ -62,11 +66,42 @@
     position: relative;
     padding-left: 40px;
     padding-bottom: 10px;
-    font-size: 1rem;
+    color: #c1c1c1;
+    /* font-size: 1rem; */
 }
 .do-company-footer-address ul li i {
     position: absolute;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     left: 0;
     top: 5px;
+}
+/* Footer usefull links */
+.do-company-footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.do-company-footer-nav ul li {
+    padding-bottom: 10px;
+}
+.do-company-footer-nav ul li a {
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #c1c1c1;
+}
+/* Footer feature navigation */
+.do-company-footer-feature-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.do-company-footer-feature-nav ul li {
+    padding-bottom: 10px;
+}
+.do-company-footer-feature-nav ul a {
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #c1c1c1;
 }
