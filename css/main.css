@@ -105,3 +105,12 @@ footer {
     text-decoration: none;
     color: #c1c1c1;
 }
+/* Footer social and donate */
+.do-company-footer-social-link {
+    margin-top: 2rem;
+}
+.do-company-footer-social-wrapper i {
+    font-size: 1.3rem;
+    padding: 5px;
+    color: #c1c1c1;
+}
