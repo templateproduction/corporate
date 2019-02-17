@@ -8,6 +8,7 @@
     margin-bottom: 2rem;
 }
 .do-company-address-link {
+    width: 280px;
     font-size: 0.9rem;
     margin-bottom: 0.6rem;
 }
@@ -19,6 +20,11 @@
     margin-right: 0.5rem;
     text-align: center;
     color: #888888;
+    transition: all ease-in-out 0.3s;
+}
+.do-company-social-address span:hover {
+    color: #000;
+    transition: all ease-in-out 0.3s;
 }
 /* Mailling Form style section */
 .do-mailing-form-heading {
@@ -39,3 +45,11 @@
     height: 220px;
     padding: 10px 8px;
 }
+.border {
+    border: 1px solid black;
+}
+/* ================================================
+
+        FOOTER SECTION STYLESHEET
+
+====================================================*/
