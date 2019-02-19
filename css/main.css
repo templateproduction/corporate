@@ -58,6 +58,14 @@
     padding: 4rem 0;
 }
 /* Footer company address and logo section */
+.do-company-footer-logo {
+    width: 220px;
+    height: 130px;
+    border: 1px solid black;
+}
+.do-company-footer-logo img {
+    width: 100%;
+}
 .do-company-footer-heading {
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -107,3 +115,9 @@
     color: #c1c1c1;
 }
 /* Footer social and donate */
+.dumy-border {
+    border-bottom: 1px solid black;
+}
+.do-company-footer-bottom i {
+    text-align: right;
+}
