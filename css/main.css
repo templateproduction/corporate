@@ -71,6 +71,7 @@
     text-transform: capitalize;
     letter-spacing: 1px;
     color: #c1c1c1;
+    margin-bottom: 2rem;
 }
 .do-company-footer-address ul {
     list-style: none;
