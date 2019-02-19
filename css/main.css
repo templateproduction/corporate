@@ -53,25 +53,28 @@
         FOOTER SECTION STYLESHEET
 
 ====================================================*/
-footer {
-    background-color: #000;
+.do-company-footer-main-wrapper {
+    background-color: darkgoldenrod;
+    padding: 4rem 0;
 }
 /* Footer company address and logo section */
+.do-company-footer-heading {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #c1c1c1;
+}
 .do-company-footer-address ul {
     list-style: none;
     padding: 0;
-    margin-top: 1rem;
 }
 .do-company-footer-address ul li {
     position: relative;
     padding-left: 40px;
     padding-bottom: 10px;
     color: #c1c1c1;
-    /* font-size: 1rem; */
 }
 .do-company-footer-address ul li i {
     position: absolute;
-    /* font-size: 1rem; */
     left: 0;
     top: 5px;
 }
@@ -79,7 +82,6 @@ footer {
 .do-company-footer-nav ul {
     list-style: none;
     padding: 0;
-    margin-top: 1rem;
 }
 .do-company-footer-nav ul li {
     padding-bottom: 10px;
@@ -94,7 +96,6 @@ footer {
 .do-company-footer-feature-nav ul {
     list-style: none;
     padding: 0;
-    margin-top: 1rem;
 }
 .do-company-footer-feature-nav ul li {
     padding-bottom: 10px;
@@ -106,11 +107,3 @@ footer {
     color: #c1c1c1;
 }
 /* Footer social and donate */
-.do-company-footer-social-link {
-    margin-top: 2rem;
-}
-.do-company-footer-social-wrapper i {
-    font-size: 1.3rem;
-    padding: 5px;
-    color: #c1c1c1;
-}
