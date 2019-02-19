@@ -60,7 +60,7 @@
 /* Footer company address and logo section */
 .do-company-footer-logo {
     width: 220px;
-    height: 130px;
+    height: 100px;
     border: 1px solid black;
 }
 .do-company-footer-logo img {
@@ -114,10 +114,17 @@
     text-decoration: none;
     color: #c1c1c1;
 }
-/* Footer social and donate */
+/* Footer bottom section */
 .dumy-border {
     border-bottom: 1px solid black;
 }
 .do-company-footer-bottom i {
     text-align: right;
+}
+/* Footer bottom author name */
+.do-company-author-name {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 8px;
 }
