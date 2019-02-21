@@ -3,6 +3,9 @@
         CONTACT PAGE STYLESHEET SECTION
 
 ========================================= */
+.do-main-contact-form {
+    margin-bottom: 10rem;
+}
 .do-company-address-heading {
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -19,7 +22,7 @@
     font-size: 1.3rem;
     margin-right: 0.5rem;
     text-align: center;
-    color: #c1c1c1;
+    color: #000;
     transition: all ease-in-out 0.3s;
 }
 .do-company-social-address span:hover {
@@ -45,17 +48,15 @@
     height: 220px;
     padding: 10px 8px;
 }
-.border {
-    border: 1px solid black;
-}
+
 /* ================================================
 
         FOOTER SECTION STYLESHEET
 
 ====================================================*/
 .do-company-footer-main-wrapper {
-    background-color: darkgoldenrod;
-    /* padding: 4rem 0; */
+    background-color: #00796B;
+    padding: 25px;
 }
 /* Footer company address and logo section */
 .do-company-footer-logo {
@@ -70,7 +71,7 @@
 .do-company-footer-heading {
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: #c1c1c1;
+    color: #000;
     margin-bottom: 2rem;
 }
 .do-company-footer-address ul {
@@ -81,7 +82,7 @@
     position: relative;
     padding-left: 40px;
     padding-bottom: 10px;
-    color: #c1c1c1;
+    color: #000;
 }
 .do-company-footer-address ul li i {
     position: absolute;
@@ -100,7 +101,7 @@
     font-size: 1rem;
     text-transform: capitalize;
     text-decoration: none;
-    color: #c1c1c1;
+    color: #000;
 }
 /* Footer feature navigation */
 .do-company-footer-feature-nav ul {
@@ -114,20 +115,30 @@
     font-size: 1rem;
     text-transform: capitalize;
     text-decoration: none;
-    color: #c1c1c1;
+    color: #000;
 }
 /* Footer bottom section */
-.dumy-border {
-    border-bottom: 1px solid black;
+.do-company-footer-bottom {
+    border-top: 1px solid #c1c1c1;
+    padding: 13px 0;
 }
-.do-company-footer-bottom i {
-    text-align: right;
+
+/* Minified footer social link and copyright section */
+.do-footer-bottom-heading {
+    color: #000;
+}
+.do-footer-bottom-social {
+    float: right;
+} 
+.do-footer-bottom-social i {
+    font-size: 1.1rem;
+    padding: 0 2px;
 }
 /* Footer bottom author name */
-.do-company-author-name {
+/* .do-company-author-name {
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 1px;
-    padding: 13px;
+    padding: 20px;
     opacity: .6;
-}
+} */
