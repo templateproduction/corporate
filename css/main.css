@@ -72,7 +72,7 @@
 .do-company-footer-heading {
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: #F7DDE3;
+    color: #c1c1c1;
     margin-top: 3em;
     margin-bottom: 1.8em;
 }
@@ -80,7 +80,7 @@
     content: '';
     width: 21%;
     height: 2px;
-    background-color: #F7DDE3;
+    background-color: #c1c1c1;
     display: block;
     margin-top: 13px;
 }
@@ -92,7 +92,7 @@
     position: relative;
     padding-left: 40px;
     padding-bottom: 10px;
-    color: #000;
+    color: #c1c1c1;
 }
 .do-company-footer-address ul li i {
     position: absolute;
@@ -111,7 +111,7 @@
     font-size: 1rem;
     text-transform: capitalize;
     text-decoration: none;
-    color: #000;
+    color: #c1c1c1;
 }
 /* Footer feature navigation */
 .do-company-footer-feature-nav ul {
@@ -125,7 +125,19 @@
     font-size: 1rem;
     text-transform: capitalize;
     text-decoration: none;
-    color: #000;
+    color: #c1c1c1;
+}
+/* Footer newsletter section */
+.do-company-footer-newsletter p {
+    color: #c1c1c1;
+}
+.do-newsletter-wrapper input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #c1c1c1;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #eeeeee;
 }
 /* Footer bottom section */
 .do-company-footer-bottom {
@@ -135,7 +147,7 @@
 
 /* Minified footer social link and copyright section */
 .do-footer-bottom-heading {
-    color: #000;
+    color: #c1c1c1;
 }
 .do-footer-bottom-social {
     float: right;
@@ -145,7 +157,7 @@
 } 
 .do-footer-bottom-social a i {
     font-size: 1.5em;
-    color: #eeeeee;
+    color: #c1c1c1;
     padding: 0 2px;
     transition: all ease-in-out 0.5s;
 }
@@ -160,3 +172,6 @@
     padding: 20px;
     opacity: .6;
 } */
+
+
+  
