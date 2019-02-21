@@ -55,7 +55,7 @@
 
 ====================================================*/
 .do-company-footer-main-wrapper {
-    background-color: #4D566D;
+    background-color: #212121;
     padding: 25px;
 }
 /* Footer company address and logo section */
@@ -140,9 +140,24 @@
     float: right;
 } 
 .do-footer-bottom-social i {
-    font-size: 1.1rem;
+    font-size: 1.3em;
+    color: #fff;
     padding: 0 2px;
+    transition: all ease-in-out 0.5s;
 }
+.do-footer-bottom-social i:first-child:hover {
+    color: #3b5998;
+}
+.do-footer-bottom-social i:nth-child(2):hover {
+    color: #38A1F3;
+}
+.do-footer-bottom-social i:nth-child(3):hover {
+    color: #0077B5;
+}
+.do-footer-bottom-social i:last-child:hover {
+    color: #00aff0;
+}
+
 /* Footer bottom author name */
 /* .do-company-author-name {
     text-align: center;
