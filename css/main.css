@@ -132,11 +132,9 @@
     color: #c1c1c1;
 }
 .do-newsletter-wrapper input {
-    border: none;
+    border: 1px solid #eeeeee;
     background: transparent;
-    border-bottom: 2px solid #c1c1c1;
-    padding-bottom: 8px;
-    padding-left: 8px;
+    padding: 8px 0 8px 13px;
     color: #eeeeee;
 }
 /* Footer bottom section */
