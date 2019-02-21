@@ -55,7 +55,7 @@
 
 ====================================================*/
 .do-company-footer-main-wrapper {
-    background-color: #009688;
+    background-color: #4D566D;
     padding: 25px;
 }
 /* Footer company address and logo section */
@@ -71,8 +71,17 @@
 .do-company-footer-heading {
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: #000;
-    margin-bottom: 2rem;
+    color: #F7DDE3;
+    margin-top: 3em;
+    margin-bottom: 1.8em;
+}
+.do-company-footer-heading::after {
+    content: '';
+    width: 21%;
+    height: 2px;
+    background-color: #F7DDE3;
+    display: block;
+    margin-top: 13px;
 }
 .do-company-footer-address ul {
     list-style: none;
