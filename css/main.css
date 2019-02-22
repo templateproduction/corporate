@@ -134,7 +134,7 @@ body {
     width: 220px;
     height: 100px;
     border: 1px solid black;
-    margin-bottom: 2rem;
+    margin-bottom: 34px;
 }
 .do-company-footer-logo img {
     width: 100%;
@@ -161,7 +161,7 @@ body {
 .do-company-footer-address ul li {
     position: relative;
     padding-left: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     color: #c1c1c1;
 }
 .do-company-footer-address ul li i {
@@ -175,30 +175,33 @@ body {
     padding: 0;
 }
 .do-company-footer-nav ul li {
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 .do-company-footer-nav ul li a {
     font-size: 1rem;
+    letter-spacing: 1px;
     text-transform: capitalize;
     text-decoration: none;
     color: #c1c1c1;
 }
-/* Footer feature navigation */
-.do-company-footer-feature-nav ul {
+/* Footer services navigation */
+.do-company-footer-services-nav ul {
     list-style: none;
     padding: 0;
 }
-.do-company-footer-feature-nav ul li {
-    padding-bottom: 10px;
+.do-company-footer-services-nav ul li {
+    padding-bottom: 8px;
 }
-.do-company-footer-feature-nav ul a {
+.do-company-footer-services-nav ul a {
     font-size: 1rem;
+    letter-spacing: 1px;
     text-transform: capitalize;
     text-decoration: none;
     color: #c1c1c1;
 }
 /* Footer newsletter section */
 .do-company-footer-newsletter p {
+    letter-spacing: 1px;
     color: #c1c1c1;
 }
 .do-newsletter-wrapper input {
