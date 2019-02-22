@@ -21,6 +21,13 @@
          local("../fonts/Raleway-Regular.ttf") format("truetype"),
          local("../fonts/Raleway-SemiBold.ttf") format("truetype");
 }
+/* *****        Font installation end       ****** */
+
+/* ================================================
+
+            Raleway font globalized into body
+
+=================================================== */
 body {
     font-family: Raleway;
 }
@@ -77,12 +84,20 @@ body {
     font-size: 1.3rem;
     margin-right: 0.5rem;
     text-align: center;
-    color: #000;
-    transition: all ease-in-out 0.3s;
+    color: #c3c3c3;
+    transition: all ease-in-out 0.4s;
 }
-.do-company-social-address span:hover {
-    color: #000;
-    transition: all ease-in-out 0.3s;
+.do-company-social-address span:first-child:hover {
+    color: #3b5998;
+}
+.do-company-social-address span:nth-child(2):hover {
+    color: #38A1F3;
+}
+.do-company-social-address span:nth-child(3):hover {
+    color: #0077B5;
+}
+.do-company-social-address span:last-child:hover {
+    color: #00aff0;
 }
 /* Mailling Form style section */
 .do-mailing-form-heading {
@@ -187,6 +202,7 @@ body {
     color: #c1c1c1;
 }
 .do-newsletter-wrapper input {
+    width: 90%;
     border: 1px solid #eeeeee;
     background: transparent;
     padding: 8px 0 8px 13px;
@@ -208,9 +224,9 @@ body {
 .do-footer-bottom-social a {
     text-decoration: none;
 } 
-.do-footer-bottom-social a i {
+.do-footer-bottom-social a span {
     font-size: 1.5em;
     color: #c1c1c1;
     padding: 0 2px;
     transition: all ease-in-out 0.5s;
-}  
+} 
