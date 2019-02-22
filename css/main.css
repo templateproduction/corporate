@@ -12,8 +12,17 @@
          local("../fonts/Lato-Hairline.ttf") format("truetype"),
          local("../fonts/Lato-Black.ttf") format("truetype");
 }
+@font-face {
+    font-family: Raleway;
+    src: local("../fonts/Raleway-Thin.ttf") format("truetype"),
+         local("../fonts/Raleway-ThinItalic.ttf") format("truetype"),
+         local("../fonts/Raleway-Light.ttf") format("truetype"),
+         local("../fonts/Raleway-Medium.ttf") format("truetype"),
+         local("../fonts/Raleway-Regular.ttf") format("truetype"),
+         local("../fonts/Raleway-SemiBold.ttf") format("truetype");
+}
 body {
-    font-family: Lato;
+    font-family: Raleway;
 }
 
 /* =======================================
