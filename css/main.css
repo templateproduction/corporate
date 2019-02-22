@@ -3,6 +3,27 @@
         CONTACT PAGE STYLESHEET SECTION
 
 ========================================= */
+/* welcome heading neavigation sectioin */
+.do-company-breadcrumbs-main-wrapper {
+    background-color: #eeeeee;
+    padding: 34px;
+    margin-bottom: 55px;
+}
+.do-company-breadcrumbs-heading h2 {
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.do-company-breadcrumbs-heading h2::after {
+    content: '';
+    display: block;
+    width: 8%;
+    height: 3px;
+    background-color: #000;
+    margin-top: 8px;
+}
+/* contact form and addess section */
 .do-main-contact-form {
     margin-bottom: 10rem;
 }
@@ -158,18 +179,4 @@
     color: #c1c1c1;
     padding: 0 2px;
     transition: all ease-in-out 0.5s;
-}
-
-
-
-/* Footer bottom author name */
-/* .do-company-author-name {
-    text-align: center;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    padding: 20px;
-    opacity: .6;
-} */
-
-
-  
+}  
