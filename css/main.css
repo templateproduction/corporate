@@ -45,7 +45,7 @@ body {
     height: 55vh;
 }
 .do-about-slider-wrapper {
-    background-color: rgba(148, 154, 245, 0.534);
+    background-color: #FFFFE2;
     height: 55vh;
 }
 .do-about-main-heading {
@@ -70,8 +70,37 @@ body {
     letter-spacing: 1px;
     opacity: 0.5;
 }
+/* Who we are page stylesheets */
+.dumy {
+    border-top: 1px solid black;
+    /* padding: 0; */
+}
+.do-about-whoWeAre-left-wrapper {
+    background-image: url(../images/whoWeAre.jpg);
+    background-size: 100%;
+    background-repeat: none;
+    height: 100vh;
+}
 
-
+.do-about-whoWeAre-right-wrapper h2 {
+    /* margin-top: 40%; */
+    padding: 21px 13px;
+    letter-spacing: 2px;
+}
+.do-about-whoWeAre-right-wrapper span {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 21px;
+}
+/* Team memners section */
+.do-about-team-main-wrapper h2.do-about-team-heading {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 600;
+    display: block;
+    padding: 21px 34px;
+    background-color: #FFFFE2;
+}
 /* =======================================
 
         CONTACT PAGE STYLESHEET SECTION
