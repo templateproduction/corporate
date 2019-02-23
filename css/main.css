@@ -31,7 +31,7 @@
 body {
     font-family: Raleway;
 }
-<<<<<<< HEAD
+
 /* ===========================================
 
         ABOUT US PAGE STYLESHEET SECTION
@@ -71,25 +71,21 @@ body {
     opacity: 0.5;
 }
 
-=======
->>>>>>> 0b1233c019a7c00012b67515ca3d6af941b9332c
 
 /* =======================================
 
         CONTACT PAGE STYLESHEET SECTION
 
 ========================================= */
-<<<<<<< HEAD
 
 
 /* welcome heading neavigation sectioin */
 .do-company-breadcrumbs-main-wrapper {
     background-color: #ffffff;
-=======
+}
 /* welcome heading neavigation sectioin */
 .do-company-breadcrumbs-main-wrapper {
     background-color: #FFF;
->>>>>>> 0b1233c019a7c00012b67515ca3d6af941b9332c
     padding: 55px;
     margin-bottom: 89px;
     /* box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23); */
