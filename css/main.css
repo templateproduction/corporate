@@ -127,16 +127,16 @@ body {
 /* Team memners section */
 .do-about-team-main-wrapper {
     margin: 89px 0;
-    background-color: #c1c1c1;
+    background-color: #c7c7c7;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 2px 3px rgba(0,0,0,0.21);
 }
-
 h2.do-about-team-heading {
     text-transform: uppercase;
     font-size: 21px;
     letter-spacing: 1px;
     font-weight: 500;
-    display: block;
-    padding: 21px 144px 21px 34px;
+    width: 25%;
+    padding: 21px 89px 21px 21px;
     background-color: #FFFFE2;
 }
 h2.do-about-team-heading::after {
@@ -146,6 +146,36 @@ h2.do-about-team-heading::after {
     height: 3px;
     background-color: #000;
     margin-top: 8px;
+}
+.do-team-profile {
+    height: 420px;
+    width: 100%;
+    background-color: #FFFFE2;
+}
+.do-team-positon-wrapper {
+    background-color: #000;
+    position: relative;
+}
+.do-team-positon-wrapper .do-team-member-position {
+    position: absolute;
+    font-size: 34px;
+    padding: 34px;
+    background-color: #FFF;
+    width: 50%;
+}
+.do-team-positon-wrapper .dumy {
+    position: absolute;
+    font-size: 34px;
+    padding: 34px;
+    background-color: #0077B5;
+    width: 50%;
+    right: 0;
+}
+.do-team-member-description {
+    position: absolute;
+    background-color: #000;
+    bottom: 0;
+    padding: 89px;
 }
 /* -------------------------------------------
 
