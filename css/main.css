@@ -32,11 +32,11 @@ body {
     font-family: Raleway;
 }
 
-/* ===========================================
+/* -------------------------------------------------
 
         ABOUT US PAGE STYLESHEET SECTION
 
-=============================================== */
+---------------------------------------------------- */
 
 /* About page slider section */
 .do-about-slider-main-wrapper {
@@ -71,41 +71,87 @@ body {
     opacity: 0.5;
 }
 /* Who we are page stylesheets */
-.dumy {
-    border-top: 1px solid black;
-    /* padding: 0; */
+.do-about-whoWeAre-main-wrapper {
+    margin: 89px 0;
+}
+.do-about-whoWeAre-left-wrapper, 
+.do-about-whoWeAre-right-wrapper {
+    padding: 0;
 }
 .do-about-whoWeAre-left-wrapper {
-    background-image: url(../images/whoWeAre.jpg);
-    background-size: 100%;
-    background-repeat: none;
-    height: 100vh;
+    text-align: center;
 }
-
-.do-about-whoWeAre-right-wrapper h2 {
-    /* margin-top: 40%; */
+.do-about-whoWeAre-left-wrapper h2 {
+    margin-top: 22%;
     padding: 21px 13px;
     letter-spacing: 2px;
 }
-.do-about-whoWeAre-right-wrapper span {
+.do-about-whoWeAre-left-wrapper span {
     font-size: 21px;
     font-weight: 300;
-    padding: 21px;
+    padding: 21px 0;
+    word-wrap: normal;
+}
+.do-about-whoWeare-describtion {
+    float: right;
+    width: 89%;
+    background-color: #FFF;
+    padding: 89px 21px;
+    margin-top: -68px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 2px 3px rgba(0,0,0,0.21);
+}
+.do-about-whoWeare-describtion h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.do-about-whoWeare-describtion p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 21px;
+    margin: 21px 0;
+}
+.do-about-whoWeare-describtion span {
+    font-size: 18px;
+    padding: 0 21px;
+}
+.do-about-whoWeare-describtion span i {
+    font-size: 18px;
+    transition: all ease-in-out 0.5s;
+}
+.do-about-whoWeare-describtion span i:hover {
+    transition: all ease-in-out 0.5s;
+    margin-left: 5px;
 }
 /* Team memners section */
-.do-about-team-main-wrapper h2.do-about-team-heading {
+.do-about-team-main-wrapper {
+    margin: 89px 0;
+    background-color: #c1c1c1;
+}
+
+h2.do-about-team-heading {
     text-transform: uppercase;
     font-size: 21px;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-weight: 500;
     display: block;
-    padding: 21px 34px;
+    padding: 21px 144px 21px 34px;
     background-color: #FFFFE2;
 }
-/* =======================================
+h2.do-about-team-heading::after {
+    content: '';
+    display: block;
+    width: 34%;
+    height: 3px;
+    background-color: #000;
+    margin-top: 8px;
+}
+/* -------------------------------------------
 
         CONTACT PAGE STYLESHEET SECTION
 
-========================================= */
+---------------------------------------------- */
 
 
 /* welcome heading neavigation sectioin */
