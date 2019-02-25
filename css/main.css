@@ -189,6 +189,36 @@ h2.do-about-team-heading::after {
     bottom: 0;
     padding: 89px;
 }
+/* Mission and Vision section stylesheet */
+.do-about-mission-main-wrapper {
+    margin-bottom: 89px;
+}
+.do-main-mission-wrapper {
+    padding: 0;
+}
+.do-main-mission {
+    height: 470px;
+    width: 760px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
+}
+.do-main-mission p {
+    text-align: center;
+    padding: 21% 5%;
+}
+.do-mission-top-heading {
+    float: right;
+    width: 77%;
+    height: 50%;
+    text-align: center;
+    background-color: #3b5998;
+}
+.do-mission-top-heading p {
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFF;
+    padding: 30% 0;
+}
 /* -------------------------------------------
 
         CONTACT PAGE STYLESHEET SECTION
