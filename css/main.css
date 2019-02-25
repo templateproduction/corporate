@@ -214,10 +214,27 @@ h2.do-about-team-heading::after {
 }
 .do-mission-top-heading p {
     font-size: 34px;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FFF;
     padding: 30% 0;
+}
+.do-mission-top-heading p::after {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #FFFFE2;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+.do-mission-bottom-heading {
+    float: right;
+    width: 77%;
+    height: 50%;
+    text-align: center;
+    background-color: #c1c1c1;
 }
 /* -------------------------------------------
 
