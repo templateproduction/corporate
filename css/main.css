@@ -242,6 +242,24 @@ h2.do-about-team-heading::after {
     padding: 144px 0;
     margin-bottom: 89px;
 }
+.test {
+    position: relative;
+    text-align: center;
+    padding: 89px;
+    border: 1px solid black;
+}
+.test p {
+
+}
+.test .author {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #38A1F3;
+    right: -8%;
+    top: 13%;
+}
 /* -------------------------------------------
 
         CONTACT PAGE STYLESHEET SECTION
