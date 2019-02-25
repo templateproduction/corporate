@@ -236,6 +236,12 @@ h2.do-about-team-heading::after {
     text-align: center;
     background-color: #c1c1c1;
 }
+/* Testimonial section stylesheet */
+.do-about-custom-testimonial-wrapper {
+    background-color: #FFFFE2;
+    padding: 144px 0;
+    margin-bottom: 89px;
+}
 /* -------------------------------------------
 
         CONTACT PAGE STYLESHEET SECTION
