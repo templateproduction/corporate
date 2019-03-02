@@ -1,4 +1,30 @@
 /* ------------------------------------------------
+            Preamble of Corporate Template
+--------------------------------------------------- */
+
+/* --------------------------
+|--- General
+|--- Fonts installation
+|--- Globalize some tags, font and measurement, preloader
+|--- Start main style sheets
+|--- INDEX PAGE STYLE SHEET
+|------->
+|--- ABOUT US PAGE STYLE SECTION
+|-------> About us animated breadcrumbs 
+|-------> About us a culture of designer and developer 
+|-------> About us a team members section 
+|-------> About us customers testimonial 
+|-------> About us a culture, environment and skills 
+|-------> About us footer section 
+|--- CONTACT PAGE STYLE SECTION
+|-------> Contact breadcrumbs
+|-------> Contact short address
+|-------> Contact form
+|-------> Contact google map
+|-------> Contact footer
+|----- Footer section style
+
+/* ------------------------------------------------
 
             Custom font installation 
 
@@ -34,10 +60,86 @@ section {
 body {
     font-family: Raleway;
 }
+/* ------------------------------------------------
+                Pre-loader section 
+--------------------------------------------------- */
+.preloader-container {
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #666;
+    background: #ccc;
+    padding: 0;
+    z-index: 99999;
+    overflow: hidden;
+}
+.preloader {
+    background: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+/* .preloader-dots {
+    height: 50px;
+    width: 80px;
+}   */
+.preloader-dots .dot {
+    display: inline-block;
+    background: #666;
+    height: 8px;
+    width: 8px;
+    opacity: 0.3;
+    border-radius: 50%;
+    animation: moveit 1.8s infinite;
+    z-index: 99999;
+}
+  
+.dot:nth-child(2) {
+animation-delay: .15s;
+}
 
+.dot:nth-child(3) {
+animation-delay: .3s;
+}
+
+.dot:nth-child(4) {
+animation-delay: .45s;
+}
+
+.dot:nth-child(5) {
+animation-delay: .6s;
+}
+
+@keyframes moveit {
+0% {
+    transform: translateY(0px);
+}
+35% {
+    transform: translateY(0px);
+    opacity: 0.3;
+}
+50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
+}
+70% {
+    transform: translateY(3px);
+    opacity: 0.8;
+}
+85% {
+    transform: translateY(-3px);
+}
+}
 /* -------------------------------------------------
 
-        ABOUT US PAGE STYLESHEET SECTION
+        ABOUT US PAGE STYLE SHEET SECTION
 
 ---------------------------------------------------- */
 
