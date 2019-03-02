@@ -1,8 +1,8 @@
-/* *******************************************
+/* ------------------------------------------------
 
             Custom font installation 
 
-********************************************** */
+--------------------------------------------------- */
 @font-face {
     font-family: Lato;
     src: local("../fonts/Lato-Light.ttf") format("truetype"),
@@ -28,6 +28,9 @@
             Raleway font globalized into body
 
 =================================================== */
+section {
+    margin-bottom: 89px;
+}
 body {
     font-family: Raleway;
 }
@@ -252,13 +255,13 @@ h2.do-about-team-heading::after {
 
 .test .author {
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border: 1px solid #FFF;
     border-radius: 50%;
     background-color: #FFF;
-    right: -7%;
-    top: 20%;
+    right: -4%;
+    top: 25%;
     /* box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23); */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
 }
@@ -268,22 +271,66 @@ h2.do-about-team-heading::after {
     overflow: hidden;
     object-fit: cover;
 }
+/* Office culture section started */
+.dummy {
+    text-align: center;
+    padding: 34px 21px;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23); */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
+}
+.do-about-office-culture-wrapper h4 {
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.do-about-office-culture-wrapper h4::after {
+    content: '';
+    width: 21%;
+    height: 2px;
+    display: block;
+    background-color: #0077B5;
+    margin: 7px auto 0;
+}
+.do-about-office-culture-wrapper p {
+    font-size: 15px;
+}
+/* Office environment section started */
+.do-about-office-environment-wrapper h4 {
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.do-about-office-environment-wrapper h4::after {
+    content: '';
+    width: 21%;
+    height: 2px;
+    display: block;
+    background-color: #0077B5;
+    margin: 7px auto 0;
+}
+.do-about-office-environment-wrapper p {
+    font-size: 15px;
+}
 /* Skills bar section started */
-p{
-    color:#525252;
-    font-size:12px;
-  }
-  
+.do-about-skills-main-wrapper h4 {
+    font-size: 21px;
+}
+.do-about-skills-main-wrapper h4::after {
+    content: '';
+    width: 21%;
+    height: 2px;
+    display: block;
+    background-color: #0077B5;
+    margin: 7px auto 15px;
+}
   .skillbar {
       position:relative;
       display:block;
-      margin-bottom:15px;
+      margin-bottom:13px;
       width:100%;
       background:#eee;
-      height:35px;
-      border-radius:3px;
-      -moz-border-radius:3px;
-      -webkit-border-radius:3px;
+      height:21px;
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
       -webkit-transition:0.4s linear;
       -moz-transition:0.4s linear;
       -ms-transition:0.4s linear;
@@ -300,13 +347,12 @@ p{
       position:absolute;
       top:0;
       left:0;
-  width:110px;
+      width:89px;
       font-weight:bold;
       font-size:13px;
       color:#ffffff;
-      background:#6adcfa;
       -webkit-border-top-left-radius:3px;
-      -webkit-border-bottom-left-radius:4px;
+      -webkit-border-bottom-left-radius:3px;
       -moz-border-radius-topleft:3px;
       -moz-border-radius-bottomleft:3px;
       border-top-left-radius:3px;
@@ -316,9 +362,9 @@ p{
   .skillbar-title span {
       display:block;
       background:rgba(0, 0, 0, 0.1);
-      padding:0 20px;
-      height:35px;
-      line-height:35px;
+      padding:0 13px;
+      height:21px;
+      line-height:21px;
       -webkit-border-top-left-radius:3px;
       -webkit-border-bottom-left-radius:3px;
       -moz-border-radius-topleft:3px;
@@ -328,9 +374,8 @@ p{
   }
   
   .skillbar-bar {
-      height:35px;
+      height:21px;
       width:0px;
-      background:#6adcfa;
       border-radius:3px;
       -moz-border-radius:3px;
       -webkit-border-radius:3px;
@@ -341,8 +386,8 @@ p{
       right:10px;
       top:0;
       font-size:11px;
-      height:35px;
-      line-height:35px;
+      height:21px;
+      line-height:21px;
       color:#ffffff;
       color:rgba(0, 0, 0, 0.4);
   }
@@ -361,7 +406,6 @@ p{
 .do-company-breadcrumbs-main-wrapper {
     background-color: #FFF;
     padding: 55px;
-    margin-bottom: 89px;
     /* box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23); */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
 }
