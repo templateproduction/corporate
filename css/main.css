@@ -84,10 +84,6 @@ body {
     height: 100%;
     width: 100%;
 }
-/* .preloader-dots {
-    height: 50px;
-    width: 80px;
-}   */
 .preloader-dots .dot {
     display: inline-block;
     background: #666;
@@ -178,9 +174,6 @@ animation-delay: .6s;
     opacity: 0.5;
 }
 /* Who we are page stylesheets */
-.do-about-whoWeAre-main-wrapper {
-    margin: 89px 0;
-}
 .do-about-whoWeAre-left-wrapper, 
 .do-about-whoWeAre-right-wrapper {
     padding: 0;
@@ -199,7 +192,7 @@ animation-delay: .6s;
     padding: 21px 0;
     word-wrap: normal;
 }
-.do-about-whoWeare-describtion {
+.do-about-whoWeare-description {
     float: right;
     width: 89%;
     background-color: #FFF;
@@ -207,11 +200,11 @@ animation-delay: .6s;
     margin-top: -68px;
     box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 2px 3px rgba(0,0,0,0.21);
 }
-.do-about-whoWeare-describtion h2 {
+.do-about-whoWeare-description h2 {
     text-align: center;
     font-size: 30px;
 }
-.do-about-whoWeare-describtion p {
+.do-about-whoWeare-description p {
     color: #000;
     font-size: 18px;
     font-weight: 400;
@@ -219,83 +212,21 @@ animation-delay: .6s;
     padding: 0 21px;
     margin: 21px 0;
 }
-.do-about-whoWeare-describtion span {
+.do-about-whoWeare-description span {
     font-size: 18px;
     padding: 0 21px;
 }
-.do-about-whoWeare-describtion span i {
+.do-about-whoWeare-description span i {
     font-size: 18px;
     transition: all ease-in-out 0.5s;
 }
-.do-about-whoWeare-describtion span i:hover {
+.do-about-whoWeare-description span i:hover {
     transition: all ease-in-out 0.5s;
     margin-left: 5px;
 }
 /* Team memners section */
-.do-about-team-main-wrapper {
-    margin: 89px 0;
-    background-color: #c7c7c7;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 2px 3px rgba(0,0,0,0.21);
-}
-.do-about-team-main-wrapper h2 {
-    padding: 0;
-}
-h2.do-about-team-heading {
-    text-transform: uppercase;
-    font-size: 21px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    width: 25%;
-    padding: 21px 89px 21px 21px;
-    background-color: #FFFFE2;
-}
-h2.do-about-team-heading::after {
-    content: '';
-    display: block;
-    width: 34%;
-    height: 3px;
-    background-color: #000;
-    margin-top: 8px;
-}
-.do-team-profile {
-    height: 420px;
-    width: 100%;
-    background-color: #FFFFE2;
-    background-image: url("../images/profile-picture.jpg");
-    background-size: cover;
-}
 
-.do-team-positon-column-wrapper {
-    text-align: center;
-    padding: 0;
-}
-.do-team-positon-wrapper {
-    background-color: #000;
-    position: relative;
-    padding: 0;
-}
-.do-team-positon-wrapper .do-team-member-position {
-    position: absolute;
-    height: 195px;
-    width: 50%;
-    font-size: 34px;
-    background-color: #FFF;
-}
 
-.do-team-positon-wrapper .do-team-member-work-sector {
-    position: absolute;
-    width: 50%;
-    height: 195px;
-    font-size: 34px;
-    right: 0;
-    background-color: #0077B5;
-}
-.do-team-member-description {
-    position: absolute;
-    background-color: #000;
-    bottom: 0;
-    padding: 89px;
-}
 /* Mission and Vision section stylesheet */
 .do-about-mission-main-wrapper {
     margin-bottom: 89px;
@@ -330,11 +261,22 @@ h2.do-about-team-heading::after {
 .do-mission-top-heading p::after {
     content: '';
     display: block;
-    width: 55px;
+    width: 13%;
     height: 2px;
     background-color: #FFFFE2;
     margin-top: 5px;
     margin-left: 25%;
+    transition: all ease-in-out 0.3s;
+}
+.do-mission-top-heading p:hover::after {
+    content: '';
+    display: block;
+    width: 21%;
+    height: 2px;
+    background-color: #FFFFE2;
+    margin-top: 5px;
+    margin-left: 25%;
+    transition: all ease-in-out 0.3s;
 }
 .do-mission-bottom-heading {
     float: right;
