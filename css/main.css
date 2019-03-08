@@ -167,37 +167,7 @@ animation-delay: .6s;
 
 ---------------------------------------------------- */
 
-/* About page slider section */
-.do-about-slider-main-wrapper {
-    background-image: url("../images/best.jpg");
-    background-attachment: fixed;
-    height: 55vh;
-}
-.do-about-slider-wrapper {
-    background-color: #FFFFE2;
-    height: 55vh;
-}
-.do-about-main-heading {
-    padding: 21vh 0;
-}
-.do-about-main-heading h2 {
-    font-size: 21px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-.do-about-main-heading h2::after {
-    content: '';
-    display: block;
-    width: 5%;
-    height: 3px;
-    background-color: #000;
-    margin-top: 8px;
-}
-.do-about-main-heading span {
-    font-size: 16px;
-    opacity: 0.5;
-}
-/* Who we are page style sheets */
+/* Who we are style sheets */
 .do-about-whoWeAre-left-wrapper, 
 .do-about-whoWeAre-right-wrapper {
     padding: 0;
@@ -503,7 +473,12 @@ animation-delay: .6s;
         SERVICE PAGE STYLE SHEETS SECTION
 
 ---------------------------------------------- */
-
+.do-service-card {
+    background-color: #171C1F;
+    padding: 0;
+    border: 1px solid #000;
+    height: 55%;
+}
 /* -------------------------------------------
 
         CONTACT PAGE STYLE SHEET SECTION
@@ -545,7 +520,7 @@ animation-delay: .6s;
 .do-company-social-address span:last-child:hover {
     color: #00aff0;
 }
-/* Mailling Form style section */
+/* Mailing Form style section */
 .do-mailing-form-heading {
     text-transform: uppercase;
     margin-bottom: 2rem;
