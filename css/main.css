@@ -255,12 +255,42 @@ animation-delay: .6s;
 .do-team-member-profile-picture .team-member-profile-picture {
     max-width: 60%;
 }
+.team-member-work-position {
+    height: 50%;
+    text-align: center;
+    padding: 21px 8px;
+    background-color: #171C1F;
+}
+.team-member-work-position h2 {
+    color: #FFF;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+}
+.team-member-work-position h2:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 36px;
+    margin: auto;
+    margin-top: 13px;
+    background: #aaa;
+    height: 1px;
+    width: 89px;
+    transition: all ease-in-out 0.5s;
+}
+.team-member-work-position h2:hover:after {
+    width: 223px;
+}
 .team-member-description {
     height: 50%;
     text-align: center;
-    letter-spacing: 1px solid #000;
-    padding: 8px;
-    /* margin-top: 21px; */
+    letter-spacing: 1px;
+    padding: 21px 8px;
+    background-color: #0077B5;
 }
 
 /* Mission and Vision section style sheet */
