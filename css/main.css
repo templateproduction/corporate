@@ -224,10 +224,39 @@ animation-delay: .6s;
     transition: all ease-in-out 0.5s;
     margin-left: 5px;
 }
-/* Team memners section */
+/* Team members section */
+.do-team-member-heading-wrapper {
+    padding: 0px;
+    background-color: #FFFFE2;
+}
+.do-team-member-heading-wrapper span {
+    letter-spacing: 1px;
+    font-size: 34px;
+    font-weight: 400;
+}
+.do-team-member-heading-wrapper span::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    /* margin: 8px auto ; */
+    transition: all ease-in-out 0.5s;
+}
+.do-team-member-heading-wrapper span:hover::after {
+    width: 55px;
+    transition: all ease-in-out 0.5s;
+}
+/* Team heading section end */
 
+.do-about-team-members-wrapper {
+    padding: 0px;
+}
+.do-team-member-profile-picture .team-member-profile-picture {
+    max-width: 60%;
+}
 
-/* Mission and Vision section stylesheet */
+/* Mission and Vision section style sheet */
 .do-about-mission-main-wrapper {
     margin-bottom: 89px;
 }
