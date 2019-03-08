@@ -255,6 +255,13 @@ animation-delay: .6s;
 .do-team-member-profile-picture .team-member-profile-picture {
     max-width: 60%;
 }
+.team-member-description {
+    height: 50%;
+    text-align: center;
+    letter-spacing: 1px solid #000;
+    padding: 8px;
+    /* margin-top: 21px; */
+}
 
 /* Mission and Vision section style sheet */
 .do-about-mission-main-wrapper {
