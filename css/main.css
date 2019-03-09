@@ -480,6 +480,9 @@ animation-delay: .6s;
     height: 340px;
     margin-bottom: 13px;
 }
+.extra {
+    margin: 0;
+}
 .main-service-card {
     padding: 34px 21px;
     text-align: center;
