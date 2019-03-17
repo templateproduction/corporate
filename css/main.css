@@ -177,55 +177,36 @@ animation-delay: .6s;
 ---------------------------------------------------- */
 
 /* Who we are style sheets */
-.do-about-whoWeAre-left-wrapper, 
-.do-about-whoWeAre-right-wrapper {
-    padding: 0;
-}
-.do-about-whoWeAre-left-wrapper {
+
+.do-whoWeAre-philosophy {
     text-align: center;
+    padding: 55px 21px;
 }
-.do-about-whoWeAre-left-wrapper h2 {
-    margin-top: 22%;
-    padding: 21px 13px;
-    letter-spacing: 2px;
+.do-whoWeAre-philosophy h2 {
+    font-size: 28px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
 }
-.do-about-whoWeAre-left-wrapper span {
-    font-size: 21px;
-    font-weight: 300;
-    padding: 21px 0;
-    word-wrap: normal;
+.do-whoWeAre-philosophy span {
+    font-size: 17px;
+    padding: 5px 8px;
+    letter-spacing: 2px; 
 }
-.do-about-whoWeare-description {
-    float: right;
-    width: 89%;
-    background-color: #FFF;
-    padding: 89px 21px;
-    margin-top: -68px;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 2px 3px rgba(0,0,0,0.21);
-}
-.do-about-whoWeare-description h2 {
+.do-whoWeAre-description {
     text-align: center;
-    font-size: 30px;
+    padding: 55px 21px 89px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
+    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.21), 0 1px 8px rgba(0, 0, 0, 0.34); */
 }
-.do-about-whoWeare-description p {
-    color: #000;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: justify;
-    padding: 0 21px;
-    margin: 21px 0;
+.do-whoWeAre-description h2 {
+    font-size: 28px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
 }
-.do-about-whoWeare-description span {
-    font-size: 18px;
-    padding: 0 21px;
-}
-.do-about-whoWeare-description span i {
-    font-size: 18px;
-    transition: all ease-in-out 0.5s;
-}
-.do-about-whoWeare-description span i:hover {
-    transition: all ease-in-out 0.5s;
-    margin-left: 5px;
+.do-whoWeAre-description p {
+    font-size: 17px;
+    padding: 5px 8px;
 }
 /* Team members section */
 .do-team-member-heading-wrapper {
@@ -243,7 +224,6 @@ animation-delay: .6s;
     height: 2px;
     width: 100%;
     background-color: #000;
-    /* margin: 8px auto ; */
     transition: all ease-in-out 0.5s;
 }
 .do-team-member-heading-wrapper span:hover::after {
@@ -297,186 +277,40 @@ animation-delay: .6s;
 }
 
 /* Mission and Vision section style sheet */
-.do-about-mission-main-wrapper {
-    margin-bottom: 89px;
-}
-.do-main-mission-wrapper {
-    padding: 0;
-}
-.do-main-mission {
-    height: 470px;
-    width: 760px;
+.do-mission-article {
+    text-align: center;
+    border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
+    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.21), 0 1px 8px rgba(0, 0, 0, 0.34); */
 }
-.do-main-mission p {
+.do-mission-article p {
+    padding: 89px 55px;
+}
+.do-mission-vision-wrapper {
+    padding-right: 0;
+}
+.do-mission-wrapper,
+.do-vision-wrapper {
     text-align: center;
-    padding: 21% 5%;
-}
-.do-mission-top-heading {
-    float: right;
-    width: 77%;
     height: 50%;
-    text-align: center;
-    background-color: #3b5998;
+    width: 100%;
 }
-.do-mission-top-heading p {
-    font-size: 34px;
-    font-weight: 300;
+.do-mission-wrapper h2,
+.do-vision-wrapper h2 {
+    font-size: 28px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #FFF;
-    padding: 30% 0;
-}
-.do-mission-top-heading p::after {
-    content: '';
-    display: block;
-    width: 13%;
-    height: 2px;
+} 
+.do-mission-wrapper {
     background-color: #FFFFE2;
-    margin-top: 5px;
-    margin-left: 25%;
-    transition: all ease-in-out 0.3s;
+    border-radius: 5px 5px 0 0;
 }
-.do-mission-top-heading p:hover::after {
-    content: '';
-    display: block;
-    width: 21%;
-    height: 2px;
-    background-color: #FFFFE2;
-    margin-top: 5px;
-    margin-left: 25%;
-    transition: all ease-in-out 0.3s;
-}
-.do-mission-bottom-heading {
-    float: right;
-    width: 77%;
-    height: 50%;
-    text-align: center;
-    background-color: #c1c1c1;
+.do-vision-wrapper {
+    background-color: #888888;
+    border-radius: 0 0 5px 5px;
 }
 /* Testimonial section style sheet */
 
-
-/* Office culture section started */
-.dummy {
-    text-align: center;
-    padding: 34px 21px;
-    /* box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23); */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
-}
-.do-about-office-culture-wrapper h4 {
-    font-size: 21px;
-    letter-spacing: 1px;
-}
-.do-about-office-culture-wrapper h4::after {
-    content: '';
-    width: 21%;
-    height: 2px;
-    display: block;
-    background-color: #0077B5;
-    margin: 7px auto 0;
-}
-.do-about-office-culture-wrapper p {
-    font-size: 15px;
-}
-/* Office environment section started */
-.do-about-office-environment-wrapper h4 {
-    font-size: 21px;
-    letter-spacing: 1px;
-}
-.do-about-office-environment-wrapper h4::after {
-    content: '';
-    width: 21%;
-    height: 2px;
-    display: block;
-    background-color: #0077B5;
-    margin: 7px auto 0;
-}
-.do-about-office-environment-wrapper p {
-    font-size: 15px;
-}
-/* Skills bar section started */
-.do-about-skills-main-wrapper h4 {
-    font-size: 21px;
-}
-.do-about-skills-main-wrapper h4::after {
-    content: '';
-    width: 21%;
-    height: 2px;
-    display: block;
-    background-color: #0077B5;
-    margin: 7px auto 15px;
-}
-.skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:13px;
-    width:100%;
-    background:#eee;
-    height:21px;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    -webkit-transition:0.4s linear;
-    -moz-transition:0.4s linear;
-    -ms-transition:0.4s linear;
-    -o-transition:0.4s linear;
-    transition:0.4s linear;
-    -webkit-transition-property:width, background-color;
-    -moz-transition-property:width, background-color;
-    -ms-transition-property:width, background-color;
-    -o-transition-property:width, background-color;
-    transition-property:width, background-color;
-}
-
-.skillbar-title {
-    position:absolute;
-    top:0;
-    left:0;
-    width:89px;
-    font-weight:bold;
-    font-size:13px;
-    color:#ffffff;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:3px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-    display:block;
-    background:rgba(0, 0, 0, 0.1);
-    padding:0 13px;
-    height:21px;
-    line-height:21px;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:3px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-    height:21px;
-    width:0px;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-    position:absolute;
-    right:10px;
-    top:0;
-    font-size:11px;
-    height:21px;
-    line-height:21px;
-    color:#ffffff;
-    color:rgba(0, 0, 0, 0.4);
-}
 /* -------------------------------------------
 
         SERVICE PAGE STYLE SHEETS SECTION
