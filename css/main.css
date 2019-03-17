@@ -64,7 +64,8 @@ body {
 .do-breadcrumb-main-wrapper {
     height: 34vh;
     background-color: #FFFFE2;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.21), 0 1px 8px rgba(0, 0, 0, 0.34);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13), 0 1px 2px rgba(0, 0, 0, 0.21);
+    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.21), 0 1px 8px rgba(0, 0, 0, 0.34); */
 }
 .do-breadcrumb {
     padding: 8vh 0;
