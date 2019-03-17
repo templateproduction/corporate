@@ -321,15 +321,23 @@ animation-delay: .6s;
 /* Testimonial section style sheet */
 
 /* Focus and Culture and Skills style sheet  */
+.do-focus-wrapper h2,
+.do-culture-wrapper h2,
+.do-skilld-wrapper h2 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
 .progressbar-title{
-    font-size: 16px;
+    font-size: 13px;
     color: #555;
-    margin: 5px 0 10px;
+    /* margin: 5px 0 10px; */
 }
 .progress{
-    height: 15px;
+    height: 13px;
     background: #d6d6d6;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     border-radius: 0;
     box-shadow: none;
     overflow: visible;
@@ -352,11 +360,11 @@ animation-delay: .6s;
     animation: animate-positive 2s;
 }
 .progress .progress-value{
-    font-size: 17px;
+    font-size: 8px;
     color: #555;
     font-weight: bold;
     position: absolute;
-    top: -28px;
+    top: -13px;
     right: 27px;
 }
 @-webkit-keyframes animate-positive {
