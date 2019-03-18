@@ -15,5 +15,9 @@ $(document).ready(function() {
 	// 	},3000);
 	// });
 	// Skilled bar section end
+
+	jQuery( document ).ready(function( $ ) {
+		$( '#my-slider' ).sliderPro();
+	});
 });
 
