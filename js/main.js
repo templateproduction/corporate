@@ -16,8 +16,17 @@ $(document).ready(function() {
 	// });
 	// Skilled bar section end
 
-	jQuery( document ).ready(function( $ ) {
-		$( '#my-slider' ).sliderPro();
-	});
+		$( '#my-slider' ).sliderPro({
+			width: '100vw',
+			height: '100vh',
+			arrows: true,
+			buttons: false,
+			waitForLayers: true,
+			fade: false,
+			autoplay: true,
+			autoScaleLayers: false,
+			autoHeight: true,
+			autoSlideSize: true
+		});
 });
 
