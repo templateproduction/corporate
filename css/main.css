@@ -218,6 +218,7 @@ animation-delay: .6s;
     font-size: 34px;
 }
 .do-counter-main-layer i::after {
+    text-align: center;
     content: '';
     display: block;
     height: 2px;
