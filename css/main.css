@@ -218,11 +218,11 @@ animation-delay: .6s;
     font-size: 34px;
 }
 .do-counter-main-layer i::after {
-    margin: 0 auto;
+    margin: 8px auto 0;
     content: '';
     display: block;
     height: 2px;
-    width: 21px;
+    width: 34px;
     background-color: #0077B5;
 }
 .do-counter-main-layer span {
