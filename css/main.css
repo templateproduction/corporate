@@ -197,6 +197,19 @@ animation-delay: .6s;
 .do-why .do-why-reasons {
     padding-left: 13px; 
 }
+
+/* Count Down section style sheet */
+.do-countDown-main-wrapper {
+    height: 377px;
+    width: 100%;
+    background-image: url("../images/achievement-agreement-arms-1068523.jpg");
+    background-position: cover cover;
+}
+.do-countDown-main-wrapper .do-dark-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* -------------------------------------------------
 
         ABOUT US PAGE STYLE SHEET SECTION
