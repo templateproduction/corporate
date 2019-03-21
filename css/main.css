@@ -210,6 +210,21 @@ animation-delay: .6s;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.do-counter-main-layer {
+    text-align: center;
+    color: #FFFFFF;
+}
+.do-counter-main-layer i {
+    font-size: 34px;
+}
+.do-counter-main-layer span {
+    display: block;
+    font-size: 21px;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
 /* -------------------------------------------------
 
         ABOUT US PAGE STYLE SHEET SECTION
