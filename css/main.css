@@ -211,6 +211,7 @@ animation-delay: .6s;
     background-color: rgba(0, 0, 0, 0.8);
 }
 .do-counter-main-layer {
+    margin-top: 45%;
     text-align: center;
     color: #FFFFFF;
 }
