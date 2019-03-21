@@ -217,6 +217,13 @@ animation-delay: .6s;
 .do-counter-main-layer i {
     font-size: 34px;
 }
+.do-counter-main-layer i::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 21px;
+    background-color: #0077B5;
+}
 .do-counter-main-layer span {
     display: block;
     font-size: 21px;
