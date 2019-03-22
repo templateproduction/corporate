@@ -259,6 +259,8 @@ animation-delay: .6s;
     font-weight: 500; 
     width: 100%;
     display: block;
+    margin-top: 68%;
+    /* margin-left: 40%; */
 }
 #flip {
     height:50px;
