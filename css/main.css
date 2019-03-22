@@ -260,7 +260,6 @@ animation-delay: .6s;
     width: 100%;
     display: block;
     margin-top: 68%;
-    /* margin-left: 40%; */
 }
 #flip {
     height:50px;
@@ -327,8 +326,9 @@ animation-delay: .6s;
 /* Who we are style sheets */
 
 .do-whoWeAre-philosophy {
-    text-align: center;
-    padding: 55px 21px;
+    /* text-align: center;
+    padding: 55px 21px; */
+    margin-top: 15%;
 }
 .do-whoWeAre-philosophy h2 {
     font-size: 28px;
