@@ -240,6 +240,79 @@ animation-delay: .6s;
 
 ---------------------------------------------------- */
 
+/* Breadcrumb with parallax effect */
+.do-overlay-breadcrumb-main-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/adults-analysis-brainstorming-1661004.jpg");
+    background-position: cover cover;
+}
+.do-overlay-breadcrumb-main-wrapper .do-dark-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#container {
+    color:#999;
+    text-transform: uppercase;
+    font-size:34px;
+    font-weight: 500; 
+    width: 100%;
+    display: block;
+}
+#flip {
+    height:50px;
+    overflow:hidden;
+}
+#flip > div > div {
+    color:#fff;
+    letter-spacing: 3px;
+    padding: 0 13px 0 0;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+}
+#flip div:first-child {
+    animation: show 5s linear infinite;
+}
+#flip div div {
+    background:#42c58a;
+}
+#flip div:first-child div {
+    background:#4ec7f3;
+}
+#flip div:last-child div {
+    background:#DC143C;
+}
+
+@keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+}
+
+/* About us title style sheet */
+.do-page-title {
+    color: #FFFFFF;
+    bottom: 45%;
+}
+.do-page-title h2 {
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.do-page-title span {
+    color: #999;
+    font-size: 21px;
+    font-weight: 500;
+}
+
 /* Who we are style sheets */
 
 .do-whoWeAre-philosophy {
