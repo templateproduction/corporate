@@ -186,7 +186,7 @@ animation-delay: .6s;
     display: block;
     height: 2px;
     width: 89px;
-    background-color: yellow;
+    background-color: #888888;
     margin-top: 8px;
     transition: all ease-in-out 0.3s;
 }
@@ -233,6 +233,54 @@ animation-delay: .6s;
     letter-spacing: 1px;
     text-transform: capitalize;
     margin-bottom: 8px;
+}
+/* Business plan implementation step section started */
+.do-idea-wrapper span.do-icon-right-shape {
+    text-align: right;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 34px 0 0 34px;
+}
+.do-idea-wrapper h2,
+.do-planning-wrapper h2 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* .do-idea-wrapper h2::after,
+.do-planning-wrapper h2::after {
+    float: right;
+    content: '';
+    display: block;
+    width: 34px;
+    height: 1px;
+    background-color: #888888;
+    margin-top: 8px;
+}  */
+.do-idea-wrapper p,
+.do-planning-wrapper p  {
+    text-align: right;
+}
+.do-research-wrapper h2,
+.do-startup-wrapper h2 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.do-research-wrapper h2::after,
+.do-startup-wrapper h2::after {
+    content: '';
+    display: block;
+    width: 34px;
+    height: 1px;
+    background-color: #888888;
+    margin-top: 8px;
+}
+.abc {
+    border-left: 1px solid #888888;
 }
 /* -------------------------------------------------
 
@@ -326,8 +374,6 @@ animation-delay: .6s;
 /* Who we are style sheets */
 
 .do-whoWeAre-philosophy {
-    /* text-align: center;
-    padding: 55px 21px; */
     margin-top: 15%;
 }
 .do-whoWeAre-philosophy h2 {
