@@ -299,6 +299,8 @@ animation-delay: .6s;
 /* About us title style sheet */
 .do-page-title {
     color: #FFFFFF;
+    margin-top: 35%;
+    margin-left: 40%;
 }
 .do-page-title h2 {
     font-size: 34px;
