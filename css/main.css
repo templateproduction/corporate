@@ -175,7 +175,7 @@ animation-delay: .6s;
 .do-feature-adjust {
     padding: 0;
 }
-.cards {
+.do-cards {
     width: 100%;
     display: flex;
     display: -webkit-flex;
@@ -183,7 +183,7 @@ animation-delay: .6s;
     -webkit-justify-content: center;
 }
 
-.card--1 .card__img, .card--1 .card__img--hover {
+.d-card-item .card__img, .do-card-item .card__img--hover {
     background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
 
@@ -225,7 +225,7 @@ animation-delay: .6s;
     height: 377px;
     top: 0;
 }
-.card {
+.do-card {
     transition: all .3s cubic-bezier(0.144, 0.610, 0, 1);
     background-color: #fff;
     width: 100%;
@@ -234,7 +234,7 @@ animation-delay: .6s;
     overflow: hidden;
     box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
 }
-.card:hover {
+.do-card:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
   transition: all .3s cubic-bezier(0.144, 0.610, 0, 1);
 }
@@ -271,17 +271,17 @@ animation-delay: .6s;
     color: #AD7D52;
 }
 
-.card:hover .card__img--hover {
+.do-card:hover .card__img--hover {
     height: 100%;
     opacity: 0.3;
 }
 
-.card:hover .card__info {
+.do-card:hover .card__info {
     background-color: transparent;
     position: relative;
 }
 
-.card:hover .card__info-hover {
+.do-card:hover .card__info-hover {
     opacity: 1;
 }
 
