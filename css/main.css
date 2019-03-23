@@ -168,6 +168,122 @@ animation-delay: .6s;
         Index or Home page style sheet
 
 ---------------------------------------------------- */
+/* Highlighted feature box style sheet */
+.do-feature-main-wrapper {
+    background: #D2DBDD;
+}
+.do-feature-adjust {
+    padding: 0;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+.card__time {
+    font-size: 12px;
+    color: #AD7D52;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 233px;
+}
+
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.card__img--hover {
+    position: absolute;
+    transition: 0.3s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 377px;
+    top: 0;
+}
+.card {
+    transition: all .3s cubic-bezier(0.144, 0.610, 0, 1);
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+  transition: all .3s cubic-bezier(0.144, 0.610, 0, 1);
+}
+
+.card__info {
+    z-index: 2;
+    background-color: #fff;
+    padding: 13px 21px 21px 21px;
+}
+
+.card__category {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.card__by {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
 
 /* why choose us style sheet section */
 .do-why-wrapper {
@@ -235,30 +351,33 @@ animation-delay: .6s;
     margin-bottom: 8px;
 }
 /* Business plan implementation step section started */
-.do-idea-wrapper span.do-icon-right-shape {
-    text-align: right;
+/* .do-idea-wrapper span.do-icon-right-shape {
+    position: absolute;
+    right: 15px;
     padding: 8px;
     border: 1px solid black;
     border-radius: 34px 0 0 34px;
-}
+} */
 .do-idea-wrapper h2,
 .do-planning-wrapper h2 {
+    position: relative;
     text-align: right;
     text-transform: uppercase;
     font-size: 21px;
     font-weight: 300;
     letter-spacing: 1px;
 }
-/* .do-idea-wrapper h2::after,
+.do-idea-wrapper h2::after,
 .do-planning-wrapper h2::after {
-    float: right;
+    position: absolute;
+    right: 0;
     content: '';
     display: block;
     width: 34px;
     height: 1px;
     background-color: #888888;
     margin-top: 8px;
-}  */
+} 
 .do-idea-wrapper p,
 .do-planning-wrapper p  {
     text-align: right;
