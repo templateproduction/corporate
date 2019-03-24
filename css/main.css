@@ -166,9 +166,14 @@ animation-delay: .6s;
     width: 100%;
     background: #000;
 }
+.do-brand-logo {
+    display: inline-block;
+}
 .do-nav-main-menu {
     background: #fff;
     display: inline-block;
+    max-width: calc(100%-5%);
+    float: right; 
 }
 .do-nav-main-menu-link {
     display: inline-block;
