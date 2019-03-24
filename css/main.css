@@ -161,10 +161,18 @@ animation-delay: .6s;
 /* -------------------------------------------------
         Navigation menu section started
 ---------------------------------------------------- */
-.do-nav-main-menu-wrapper {
+.do-nav-menu-wrapper {
     height: 89px;
     width: 100%;
     background: #000;
+}
+.do-nav-main-menu {
+    background: #fff;
+    display: inline-block;
+}
+.do-nav-main-menu-link {
+    display: inline-block;
+    padding: 5px 8px;
 }
 
 /* -------------------------------------------------
