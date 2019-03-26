@@ -171,8 +171,7 @@ animation-delay: .6s;
 }
 .do-nav-main-menu {
     background: #fff;
-    display: inline-block;
-    max-width: calc(100%);
+    /* max-width: calc(100%); */
 }
 .do-nav-main-menu-link {
     display: inline-block;
