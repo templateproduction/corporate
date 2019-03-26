@@ -172,8 +172,7 @@ animation-delay: .6s;
 .do-nav-main-menu {
     background: #fff;
     display: inline-block;
-    max-width: calc(100%-5%);
-    float: right; 
+    max-width: calc(100%);
 }
 .do-nav-main-menu-link {
     display: inline-block;
