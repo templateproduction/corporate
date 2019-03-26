@@ -168,10 +168,12 @@ animation-delay: .6s;
 }
 .do-brand-logo {
     display: inline-block;
+    line-height: 89px;
 }
 .do-nav-main-menu {
     background: #fff;
-    /* max-width: calc(100%); */
+    float: right;
+    max-width: calc(100%-10%);
 }
 .do-nav-main-menu-link {
     display: inline-block;
